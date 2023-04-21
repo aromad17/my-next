@@ -5,7 +5,7 @@ const name = 'my-next'
 
 const nextConfig = {
   reactStrictMode: true,
-  assertPrefix: !debug ? `/${name}/` : '',
+  assetPrefix: !debug ? `/${name}/` : '',
   basePath: '/my-next',
   trailingSlash: true,
 }
